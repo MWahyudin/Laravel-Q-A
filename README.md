@@ -1,4 +1,16 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Question & Answer App built with laravel 7
+## How to  install 
+1. git clone https://github.com/MWahyudin/Laravel-Q-A.git
+2. Composer install 
+3. cp .env.example .env
+4. php artisan key:generate
+5. php artisan migrate --seed
+6. php artisan serve
+
+Note : make sure you created database in database manager , edit database name in .env file
+
+
+p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
